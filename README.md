@@ -44,7 +44,7 @@ THEN the saved events persist
 |  Asses HTML and CSS and push script.js to repo  | Complete | 
 |  Page to display the planner with timeblocks  | Complete | 
 |  The current date is displayed at the top of the page   | Complete | 
-|  Description block changes colour according to time of day (past, present and future )| Not Yet Started | 
+|  Description block changes colour according to time of day (past, present and future )| Completed | 
 |  Timeblock needs a click function to write an event   | Not Yet Started | 
 |  The timeblock event details are saved in local storage   | Not Yet Started | 
 |  Refreshing the page should still contain the save events   | Not Yet Started | 

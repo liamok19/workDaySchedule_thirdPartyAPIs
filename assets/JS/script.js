@@ -7,12 +7,12 @@ var today = moment();
 var hours = document.getElementsByClassName("hour");
     console.log(hours);
 
-var currentHour = 10 //parseInt(moment().format('H')); 
+var currentHour = parseInt(moment().format('H')); 
     console.log(currentHour);
 
 Array.from(hours).forEach(hour => {
     console.log(hour.dataset);
-    if (currentHour == hour.dataset.hour) {
+    if (currentHour === hour.dataset.hour) {
         $(hour).next().addClass("present"); //Current Hour
     } else if ((currentHour < hour.dataset.hour)) {
         $(hour).next().addClass("future"); //Future Hour/s

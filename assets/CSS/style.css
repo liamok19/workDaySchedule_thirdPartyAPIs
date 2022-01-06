@@ -72,3 +72,10 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
+.container {
+  text-align: center;
+}
+
+.table_head {
+padding: 20px 0px;
+}

@@ -42,10 +42,9 @@ THEN the saved events persist
 | ------------- |:-------------:| 
 |  Build READme Strategy Plan   | Complete | 
 |  Asses HTML and CSS and push script.js to repo  | Complete | 
-|  Open Button to display the planner   | Not Yet Started | 
-|  The current date is displayed at the top of the page   | Not Yet Started | 
-|  Standard blocks for buisness hours need to be displayed when scrolling down   | Not Yet Started | 
-|  On click event the colour of the element changes based on past, present and future   | Not Yet Started | 
+|  Page to display the planner with timeblocks  | Complete | 
+|  The current date is displayed at the top of the page   | Complete | 
+|  Description block changes colour according to time of day (past, present and future )| Not Yet Started | 
 |  Timeblock needs a click function to write an event   | Not Yet Started | 
 |  The timeblock event details are saved in local storage   | Not Yet Started | 
 |  Refreshing the page should still contain the save events   | Not Yet Started | 

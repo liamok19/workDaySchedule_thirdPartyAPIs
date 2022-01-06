@@ -18,6 +18,8 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/CSS/style.css"/>
 
     <title>Work Day Scheduler</title>
@@ -29,12 +31,12 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <table class="container">
+    <table class="container table-hover">
       <!-- Timeblocks go here -->
       <tr>
-          <th scope="col">Time p/hr</th>
-          <th scope="col">Task Description</th>
-          <th scope="col">Save Event</th>
+          <th scope="col" >Time p/hr</th>
+          <th scope="col" >Task Description</th>
+          <th scope="col" >Save Event</th>
       </tr>
       <tbody class="time-block">
         <tr>
@@ -89,8 +91,7 @@
       </tbody>
 
     </table>
+    <script src="./assets/js/script.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
 </html>

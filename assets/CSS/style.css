@@ -37,7 +37,7 @@ textarea {
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color: #ad2d2d;
   color: #000000;
   border-top: 1px dashed #000000;
 }
@@ -70,8 +70,3 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-/* .container {
-  display: grid;
-  grid-gap: 0.2rem;
-  grid-template-columns:5rem repeat (4, 1fr);
-} */

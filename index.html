@@ -18,7 +18,8 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/CSS/style.css"/>
+
     <title>Work Day Scheduler</title>
   </head>
 
@@ -28,11 +29,66 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
+    <table class="container">
       <!-- Timeblocks go here -->
-      <div class="morning_9_AM">9:00</div>
-      <div class="morning_10_AM">10:00</div>
-    </div>
+      <tr>
+          <th scope="col">Time p/hr</th>
+          <th scope="col">Task Description</th>
+          <th scope="col">Save Event</th>
+      </tr>
+      <tbody>
+        <tr>
+          <th scope="row">09:00</th>
+          <td id="taskDescription"></td>
+          <td id="saveDescription"></td>
+        </tr>    
+        <tr>
+          <th scope="row">10:00</th>
+          <td id="taskDescription"></td>
+          <td id="saveDescription"></td>
+        </tr>
+        <tr>
+          <th scope="row">11:00</th>
+          <td id="taskDescription"></td>
+          <td id="saveDescription"> </td>
+        </tr>
+        <tr>
+          <th scope="row" class="hour">12:00</th>
+          <td id="taskDescription"></td>
+          <td id="saveDescription"></td>
+        </tr>    
+        <tr>
+          <th scope="row">13:00</th>
+          <td id="taskDescription"></td>
+          <td id="saveDescription"></td>
+        </tr>
+        <tr>
+          <th scope="row">14:00</th>
+          <td id="taskDescription"></td>
+          <td id="saveDescription"> </td>
+        <tr>
+          <th scope="row">15:00</th>
+          <td id="taskDescription"></td>
+          <td id="saveDescription"></td>
+        </tr>    
+        <tr>
+          <th scope="row">16:00</th>
+          <td id="taskDescription"></td>
+          <td id="saveDescription"></td>
+        </tr>
+        <tr>
+          <th scope="row">17:00</th>
+          <td id="taskDescription"></td>
+          <td id="saveDescription"> </td>
+        </tr>
+        <tr>
+          <th scope="row">18:00</th>
+          <td id="taskDescription"></td>
+          <td id="saveDescription"></td>
+        </tr>    
+      </tbody>
+
+    </table>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>

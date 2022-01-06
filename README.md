@@ -44,11 +44,13 @@ THEN the saved events persist
 |  Asses HTML and CSS and push script.js to repo  | Complete | 
 |  Open Button to display the planner   | Not Yet Started | 
 |  The current date is displayed at the top of the page   | Not Yet Started | 
-|  standard blocks for buisness hours need to be displayed when scrolling down   | Not Yet Started | 
+|  Standard blocks for buisness hours need to be displayed when scrolling down   | Not Yet Started | 
 |  On click event the colour of the element changes based on past, present and future   | Not Yet Started | 
 |  Timeblock needs a click function to write an event   | Not Yet Started | 
 |  The timeblock event details are saved in local storage   | Not Yet Started | 
 |  Refreshing the page should still contain the save events   | Not Yet Started | 
+| This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. | Not Yet Started |
+ |Moment.js library utilised to work with date and time. | Not yet started | 
 
 
 ## Pseudo Code
@@ -76,3 +78,8 @@ Based on the research I found the following sources that I would like to credit 
 
 ## License
 - Existing projects and communities, this README file is publicly open for reference and review. 
+
+
+## Notes
+
+05/01/2022 - Review display grid from previous lesson

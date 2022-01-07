@@ -22,9 +22,12 @@ Array.from(hours).forEach(hour => {
 });
 
 
-
-
 //data attribute 
 
 //parseInt - 
 
+var savTextBtn = document.querySelector(".btn");
+    console.log(savTextBtn );   
+
+var emptyText = document.querySelector(".text");
+    console.log(emptyText + 'this');

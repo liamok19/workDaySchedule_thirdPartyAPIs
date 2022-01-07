@@ -21,13 +21,70 @@ Array.from(hours).forEach(hour => {
     }
 });
 
-
-//data attribute 
-
-//parseInt - 
-
+var msgDiv = document.querySelector("#msg");
+var finalSaveTask = document.querySelector(".savedTask");
+console.log(finalSaveTask = "i savey save");
 var savTextBtn = document.querySelector(".btn");
-    console.log(savTextBtn );   
-
 var emptyText = document.querySelector(".text");
-    console.log(emptyText + 'this');
+
+function displayMessage(type, message) {
+    msgDiv.textContent = message;
+    msgDiv.setAttribute("class", type);
+}
+
+function renderToDoTask() {
+    var description = localStorage.getItem("textAreaEL");
+
+    // if (!description || !password) {
+    // return;
+    // }
+    finalSaveTask.textContent = description;
+}
+
+savTextBtn.addEventListener("click", function(event) {
+    event.preventDefault();
+
+    var description = document.querySelector("#textAreaEL").value;
+
+    if (description == "") {
+        displayMessage("error", "Enter text to save task");   
+    } else (description != ""); {
+
+        localStorage.setItem("description", description);
+        renderToDoTask();
+    }
+
+});
+
+
+
+
+
+
+
+
+
+
+// var savTextBtn = document.querySelector(".btn");
+//     // console.log(savTextBtn + "oops I did it again");   
+
+// var textdescription = document.querySelector(".description")
+//     // console.log(textdescription = "Britney bitch");
+
+// var emptyText = document.querySelector(".text");
+//     // console.log(emptyText + ' work bitch');
+
+
+// savTextBtn.addEventListener("click", function(event) {
+//     event.preventDefault();
+
+//     var description = document
+//     if (emptyText === "") {
+//         localStorage.setItem(".text" , emptyText);    
+//     // } else (emptyText == ""); {
+//     //     emptyText.textContent = ("Nothing added either type your task or move to the next hour in the day.");
+//     }
+
+
+// });
+// console.log(savTextBtn + "circus");

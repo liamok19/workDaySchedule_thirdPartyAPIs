@@ -12,7 +12,7 @@ var currentHour = parseInt(moment().format('H'));
 
 Array.from(hours).forEach(hour => {
     console.log(hour.dataset);
-    if (currentHour === hour.dataset.hour) {
+    if (currentHour == hour.dataset.hour) {
         $(hour).next().addClass("present"); //Current Hour
     } else if ((currentHour < hour.dataset.hour)) {
         $(hour).next().addClass("future"); //Future Hour/s
@@ -21,13 +21,10 @@ Array.from(hours).forEach(hour => {
     }
 });
 
-// function setColor(element, color) {
-//     element.style.backgroundColor = color;
-// }
 
-// $("td#9").css("color", "green");
 
 
 //data attribute 
 
 //parseInt - 
+

@@ -45,11 +45,11 @@ THEN the saved events persist
 |  Page to display the planner with timeblocks  | Complete | 
 |  The current date is displayed at the top of the page   | Complete | 
 |  Description block changes colour according to time of day (past, present and future )| Completed | 
-|  Timeblock needs a click function to write an event   | Not Yet Started | 
+|  Timeblock needs a keyUP function to write an event   | In progress | 
 |  The timeblock event details are saved in local storage   | Not Yet Started | 
 |  Refreshing the page should still contain the save events   | Not Yet Started | 
-| This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. | Not Yet Started |
- |Moment.js library utilised to work with date and time. | Not yet started | 
+| This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. | In Progress |
+ |Moment.js library utilised to work with date and time. | Completed | 
 
 
 ## Pseudo Code

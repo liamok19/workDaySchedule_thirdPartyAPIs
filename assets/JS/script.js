@@ -21,49 +21,30 @@ Array.from(hours).forEach(hour => {
     }
 });
 
-var msgDiv = document.querySelector("#msg");
-var finalSaveTask = document.querySelector(".savedTask");
-console.log(finalSaveTask = "i savey save");
-var savTextBtn = document.querySelector(".btn");
-var emptyText = document.querySelector(".text");
 
-function displayMessage(type, message) {
-    msgDiv.textContent = message;
-    msgDiv.setAttribute("class", type);
+var storageInput = document.querySelector(".storage");
+var text = document.querySelector(".pageRefreshText");
+var button = document.querySelector ('.btn')
+var storedInput = localStorage.getItem('textInput');
+
+if (storageInput){
+    text.textContent = 'Previous Set Task: ' + storedInput 
 }
 
-function renderToDoTask() {
-    var description = localStorage.getItem("textAreaEL");
+storageInput.addEventListener('input', letter =>{
+    text.textContent = letter.target.value
+})
 
-    // if (!description || !password) {
-    // return;
-    // }
-    finalSaveTask.textContent = description;
+var saveToLocalStorage = () => {
+    localStorage.setItem('textInput', text.textContent)
 }
 
-savTextBtn.addEventListener("click", function(event) {
-    event.preventDefault();
-
-    var description = document.querySelector("#textAreaEL").value;
-
-    if (description == "") {
-        displayMessage("error", "Enter text to save task");   
-    } else (description != ""); {
-
-        localStorage.setItem("description", description);
-        renderToDoTask();
-    }
-
-});
+button.addEventListener('click', saveToLocalStorage)
 
 
 
 
-
-
-
-
-
+// the original code i want to keep. but it's no longer required for this assignment in the future. I want to know how I was able to set-item to local storage but not able to getitem.
 
 // var savTextBtn = document.querySelector(".btn");
 //     // console.log(savTextBtn + "oops I did it again");   

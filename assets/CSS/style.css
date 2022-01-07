@@ -92,3 +92,17 @@ padding: 20px 0px;
 .btn:hover {
   background-color: RoyalBlue;
 }
+
+/* #taskDescription {
+  display: flex;
+  flex-direction: row;
+} */
+
+textarea {
+  float: left;
+} 
+
+.pageRefreshText{
+  padding: 10px;
+  float: right;
+}

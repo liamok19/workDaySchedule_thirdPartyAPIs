@@ -28,8 +28,8 @@
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <div class="lead">A simple calendar app for scheduling your work day</div>
+      <div id="currentDay" class="lead"></div>
     </header>
     <table class="container">
       <!-- Timeblocks go here -->
@@ -67,9 +67,12 @@
         </tr>
         <tr>
           <th scope="row" class="hour" data-hour="11">11:00</th>
-          <td id="taskDescription" class="description"> </td>
+          <td id="taskDescription" >
+            <textarea id="textAreaEL" type="text" class="storage_11" placeholder="feeding the giraffe"></textarea>
+            <p class="pageRefreshText11"></p>
+          </td>
           <td id="saveDescription" class="saveBtn">
-            <button class="btn">
+            <button class="btn11">
               <i class="fa-solid fa-floppy-disk"></i>
               Save
             </button>
@@ -77,9 +80,12 @@
         </tr>
         <tr>
           <th scope="row" class="hour" data-hour="12">12:00</th>
-          <td id="taskDescription" class="description"></td>
+          <td id="taskDescription" >
+            <textarea id="textAreaEL" type="text" class="storage_12" placeholder="Working out: Glutes"></textarea>
+            <p class="pageRefreshText12"></p>
+          </td>
           <td id="saveDescription" class="saveBtn">
-            <button class="btn">
+            <button class="btn12">
               <i class="fa-solid fa-floppy-disk"></i>
               Save
             </button>
@@ -87,9 +93,12 @@
         </tr>    
         <tr>
           <th scope="row" class="hour" data-hour="13">13:00</th>
-          <td id="taskDescription" class="description"></td>
+          <td id="taskDescription">
+            <textarea id="textAreaEL" type="text" class="storage_13" placeholder="picking up the kids from violin practice"></textarea>
+            <p class="pageRefreshText13"></p>
+          </td>
           <td id="saveDescription" class="saveBtn">
-            <button class="btn">
+            <button class="btn13">
               <i class="fa-solid fa-floppy-disk"></i>
               Save
             </button>
@@ -97,9 +106,12 @@
         </tr>  
         <tr>
           <th scope="row" class="hour" data-hour="14">14:00</th>
-          <td id="taskDescription" class="description"></td>
+          <td id="taskDescription">
+            <textarea id="textAreaEL" type="text" class="storage_14" placeholder="Badmington practice"></textarea>
+            <p class="pageRefreshText14"></p>
+          </td>
           <td id="saveDescription" class="saveBtn">
-            <button class="btn">
+            <button class="btn14">
               <i class="fa-solid fa-floppy-disk"></i>
               Save
             </button>
@@ -107,9 +119,12 @@
         </tr>  
         <tr>
           <th scope="row" class="hour" data-hour="15">15:00</th>
-          <td id="taskDescription" class="description"></td>
+          <td id="taskDescription">
+            <textarea id="textAreaEL" type="text" class="storage_15" placeholder="Grocery shopping"></textarea>
+            <p class="pageRefreshText15"></p>
+          </td>
           <td id="saveDescription" class="saveBtn">
-            <button class="btn">
+            <button class="btn15">
               <i class="fa-solid fa-floppy-disk"></i>
               Save
             </button>
@@ -117,9 +132,12 @@
         </tr>    
         <tr>
           <th scope="row" class="hour" data-hour="16">16:00</th>
-          <td id="taskDescription" class="description"></td>
+          <td id="taskDescription">
+            <textarea id="textAreaEL" type="text" class="storage_16" placeholder="Example: Meditation break"></textarea>
+            <p class="pageRefreshText16"></p> 
+          </td>
           <td id="saveDescription" class="saveBtn">
-            <button class="btn">
+            <button class="btn16">
               <i class="fa-solid fa-floppy-disk"></i>
               Save
             </button>
@@ -127,9 +145,12 @@
         </tr>
         <tr>
           <th scope="row" class="hour" data-hour="17">17:00</th>
-          <td id="taskDescription" class="description"></td>
+          <td id="taskDescription">
+            <textarea id="textAreaEL" type="text" class="storage_17" placeholder="Example: Work meeting"></textarea>
+            <p class="pageRefreshText17"></p> 
+          </td>
           <td id="saveDescription" class="saveBtn">
-            <button class="btn">
+            <button class="btn17">
               <i class="fa-solid fa-floppy-disk"></i>
               Save
             </button>
@@ -137,9 +158,12 @@
         </tr>
         <tr>
           <th scope="row" class="hour" data-hour="18">18:00</th>
-          <td id="taskDescription" class="description"></td>
+          <td id="taskDescription">
+            <textarea id="textAreaEL" type="text" class="storage_18" placeholder="Example: Read a book"></textarea>
+            <p class="pageRefreshText18"></p> 
+          </td>
           <td id="saveDescription" class="saveBtn">
-            <button class="btn">
+            <button class="btn18">
               <i class="fa-solid fa-floppy-disk"></i>
               Save
             </button>

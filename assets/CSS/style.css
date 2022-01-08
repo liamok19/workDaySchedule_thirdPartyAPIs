@@ -93,21 +93,12 @@ padding: 20px 0px;
   background-color: RoyalBlue;
 }
 
-/* #taskDescription {
-  display: flex;
-  flex-direction: row;
-} */
 
 textarea {
   float: left;
 } 
 
-.pageRefreshText{
-  padding: 10px;
-  float: right;
-}
-
-.pageRefreshText10{
+p {
   padding: 10px;
   float: right;
 }

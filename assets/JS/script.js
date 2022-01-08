@@ -62,6 +62,161 @@ var saveToLocalStorage = () => {
 button10.addEventListener('click', saveToLocalStorage)
 
 
+
+var storageInput11 = document.querySelector(".storage_11");
+var text11 = document.querySelector(".pageRefreshText11");
+var button11 = document.querySelector ('.btn11')
+var storedInput11 = localStorage.getItem('textInput_11am');
+
+if (storageInput11){
+    text11.textContent = 'Previous Set Task: ' + storedInput11
+}
+
+storageInput11.addEventListener('input', letter =>{
+    text11.textContent = letter.target.value
+})
+
+var saveToLocalStorage = () => {
+    localStorage.setItem('textInput_11am', text11.textContent)
+}
+
+button11.addEventListener('click', saveToLocalStorage)
+
+var storageInput12 = document.querySelector(".storage_12");
+var text12 = document.querySelector(".pageRefreshText12");
+var button12 = document.querySelector ('.btn12')
+var storedInput12 = localStorage.getItem('textInput_12pm');
+
+if (storageInput12){
+    text12.textContent = 'Previous Set Task: ' + storedInput12
+}
+
+storageInput12.addEventListener('input', letter =>{
+    text12.textContent = letter.target.value
+})
+
+var saveToLocalStorage = () => {
+    localStorage.setItem('textInput_12pm', text12.textContent)
+}
+
+button12.addEventListener('click', saveToLocalStorage)
+
+var storageInput13 = document.querySelector(".storage_13");
+var text13 = document.querySelector(".pageRefreshText13");
+var button13 = document.querySelector ('.btn13')
+var storedInput13 = localStorage.getItem('textInput_13pm');
+
+if (storageInput13){
+    text13.textContent = 'Previous Set Task: ' + storedInput13
+}
+
+storageInput13.addEventListener('input', letter =>{
+    text13.textContent = letter.target.value
+})
+
+var saveToLocalStorage = () => {
+    localStorage.setItem('textInput_13pm', text13.textContent)
+}
+
+button13.addEventListener('click', saveToLocalStorage)
+
+var storageInput14 = document.querySelector(".storage_14");
+var text14 = document.querySelector(".pageRefreshText14");
+var button14 = document.querySelector ('.btn14')
+var storedInput14 = localStorage.getItem('textInput_14pm');
+
+if (storageInput14){
+    text14.textContent = 'Previous Set Task: ' + storedInput14
+}
+
+storageInput14.addEventListener('input', letter =>{
+    text14.textContent = letter.target.value
+})
+
+var saveToLocalStorage = () => {
+    localStorage.setItem('textInput_14pm', text14.textContent)
+}
+
+button14.addEventListener('click', saveToLocalStorage)
+
+var storageInput15 = document.querySelector(".storage_15");
+var text15 = document.querySelector(".pageRefreshText15");
+var button15 = document.querySelector ('.btn15')
+var storedInput15 = localStorage.getItem('textInput_15pm');
+
+if (storageInput15){
+    text15.textContent = 'Previous Set Task: ' + storedInput15
+}
+
+storageInput15.addEventListener('input', letter =>{
+    text15.textContent = letter.target.value
+})
+
+var saveToLocalStorage = () => {
+    localStorage.setItem('textInput_15pm', text15.textContent)
+}
+
+button15.addEventListener('click', saveToLocalStorage)
+
+var storageInput16 = document.querySelector(".storage_16");
+var text16 = document.querySelector(".pageRefreshText16");
+var button16 = document.querySelector ('.btn16')
+var storedInput16 = localStorage.getItem('textInput_16pm');
+
+if (storageInput16){
+    text16.textContent = 'Previous Set Task: ' + storedInput16
+}
+
+storageInput16.addEventListener('input', letter =>{
+    text16.textContent = letter.target.value
+})
+
+var saveToLocalStorage = () => {
+    localStorage.setItem('textInput_16pm', text16.textContent)
+}
+
+button16.addEventListener('click', saveToLocalStorage)
+
+var storageInput17 = document.querySelector(".storage_17");
+var text17 = document.querySelector(".pageRefreshText17");
+var button17 = document.querySelector ('.btn17')
+var storedInput17 = localStorage.getItem('textInput_17pm');
+
+if (storageInput17){
+    text17.textContent = 'Previous Set Task: ' + storedInput17
+}
+
+storageInput17.addEventListener('input', letter =>{
+    text17.textContent = letter.target.value
+})
+
+var saveToLocalStorage = () => {
+    localStorage.setItem('textInput_17pm', text17.textContent)
+}
+
+button17.addEventListener('click', saveToLocalStorage)
+
+var storageInput18 = document.querySelector(".storage_18");
+var text18 = document.querySelector(".pageRefreshText18");
+var button18 = document.querySelector ('.btn18')
+var storedInput18 = localStorage.getItem('textInput_18pm');
+
+if (storageInput18){
+    text18.textContent = 'Previous Set Task: ' + storedInput18
+}
+
+storageInput18.addEventListener('input', letter =>{
+    text18.textContent = letter.target.value
+})
+
+var saveToLocalStorage = () => {
+    localStorage.setItem('textInput_18pm', text18.textContent)
+}
+
+button18.addEventListener('click', saveToLocalStorage)
+
+
+
 // the original code i want to keep. but it's no longer required for this assignment in the future. I want to know how I was able to set-item to local storage but not able to getitem.
 
 // var savTextBtn = document.querySelector(".btn");

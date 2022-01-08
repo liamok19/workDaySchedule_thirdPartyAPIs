@@ -42,6 +42,24 @@ var saveToLocalStorage = () => {
 button.addEventListener('click', saveToLocalStorage)
 
 
+var storageInput10 = document.querySelector(".storage_10");
+var text10 = document.querySelector(".pageRefreshText10");
+var button10 = document.querySelector ('.btn10')
+var storedInput10 = localStorage.getItem('textInput_10am');
+
+if (storageInput10){
+    text10.textContent = 'Previous Set Task: ' + storedInput10 
+}
+
+storageInput10.addEventListener('input', letter =>{
+    text10.textContent = letter.target.value
+})
+
+var saveToLocalStorage = () => {
+    localStorage.setItem('textInput_10am', text10.textContent)
+}
+
+button10.addEventListener('click', saveToLocalStorage)
 
 
 // the original code i want to keep. but it's no longer required for this assignment in the future. I want to know how I was able to set-item to local storage but not able to getitem.

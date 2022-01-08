@@ -80,7 +80,7 @@ textarea {
 padding: 20px 0px;
 }
 
-.btn {
+.btn, .btn10 {
   background-color: #06aed5;
   border: none;
   color: white;
@@ -89,7 +89,7 @@ padding: 20px 0px;
   cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover, .btn10:hover {
   background-color: RoyalBlue;
 }
 
@@ -103,6 +103,11 @@ textarea {
 } 
 
 .pageRefreshText{
+  padding: 10px;
+  float: right;
+}
+
+.pageRefreshText10{
   padding: 10px;
   float: right;
 }

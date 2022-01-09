@@ -80,7 +80,7 @@ textarea {
 padding: 20px 0px;
 }
 
-.btn, .btn10 {
+#btn_style {
   background-color: #06aed5;
   border: none;
   color: white;
@@ -89,7 +89,7 @@ padding: 20px 0px;
   cursor: pointer;
 }
 
-.btn:hover, .btn10:hover {
+#btn_style:hover {
   background-color: RoyalBlue;
 }
 
@@ -101,4 +101,10 @@ textarea {
 p {
   padding: 10px;
   float: right;
+}
+
+::placeholder {
+  font-size: 13px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #00000062;
 }

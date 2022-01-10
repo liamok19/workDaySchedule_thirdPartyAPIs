@@ -56,8 +56,7 @@ THEN the saved events persist
 
 
 ## Assets
-![dayplannerref](./assets/Images/workDayScheduler_video_ref)
-
+![dayplannerref](./assets/Images/workDayScheduler.gif)
 
 ## Links
 

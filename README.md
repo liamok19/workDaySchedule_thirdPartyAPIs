@@ -29,7 +29,6 @@ THEN the saved events persist
 
 ## Table of Contents
 - [Strategy](#strategy)
-- [Pseudo](#Pseudo)
 - [Assets](#assets)
 - [Links](#links)
 - [Credits](#credits)
@@ -52,14 +51,14 @@ THEN the saved events persist
  |Moment.js library utilised to work with date and time. | Completed | 
 
 
-## Pseudo Code
-
-
 ## Assets
 ![dayplannerref](./assets/Images/workDayScheduler.gif)
 
 ## Links
-
+Github Link:
+https://github.com/liamok19/workDaySchedule_thirdPartyAPIs
+Website Link:
+https://liamok19.github.io/workDaySchedule_thirdPartyAPIs/
 
 ## Credits
 
@@ -68,17 +67,17 @@ Based on the research I found the following sources that I would like to credit 
 | ------------- |:-------------:| -----:|
 | Web Dev Simplified    | Youtube      |Title: Build A Quiz App With JavaScript  | 
 | #ask your classmaters | Slack      |Conversations between instructors and classmates |
-|   |      | Title:  |
-|   |      | Title:  |
-|   |      | Title:  |
-|   |      | Title:  |
-|   |      | Title:  |
-
+| Tutor: Renato Stretti | USYD: Zoom Private Class    | Title:Sunday Session  |
+| JQuery   |    https://jquery.com/  | Title:  jQuery API |
+| iEatWebsites  |    Youtube  | Title: LocalStorage for beginners (HTML and Javascript) |
+|  StackOverflow |   Stack Overflow   | Title: How to save the text content of a button clicked to a variable  |
 
 ## License
 - Existing projects and communities, this README file is publicly open for reference and review. 
 
 
 ## Notes
-
 05/01/2022 - Review display grid from previous lesson
+06/01/2022 - Discuss with Class Teachers the JQuery process to colourise the hour using moment.js
+08/01/2022 - Research and auotmated process for the local storage not having to be re-written. Potential for loop?
+10/01/2022 - Once all saves completed leave a message for the user. Confetti graphic "Yipee your calendar is set for today" ;) 

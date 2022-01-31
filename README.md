@@ -1,4 +1,14 @@
-# workDaySchedule_thirdPartyAPIs
+# Work Day Schedule
+
+## Links
+Github Link:
+https://github.com/liamok19/workDaySchedule_thirdPartyAPIs
+
+        Contact Information in the below link:
+
+
+Website Link:
+https://liamok19.github.io/workDaySchedule_thirdPartyAPIs/
 
 ## User Story
 
@@ -31,6 +41,7 @@ THEN the saved events persist
 - [Strategy](#strategy)
 - [Assets](#assets)
 - [Links](#links)
+- [Technologies Implemented](#Technologies)
 - [Credits](#credits)
 - [License](#license)
 
@@ -54,11 +65,15 @@ THEN the saved events persist
 ## Assets
 ![dayplannerref](./assets/Images/workDayScheduler.gif)
 
-## Links
-Github Link:
-https://github.com/liamok19/workDaySchedule_thirdPartyAPIs
-Website Link:
-https://liamok19.github.io/workDaySchedule_thirdPartyAPIs/
+
+## Technologies:
+- HTML 
+- CSS
+- JavaScript 
+- Jquery
+- moment.js
+- Web APIS 
+- Github
 
 ## Credits
 
